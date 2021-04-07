@@ -12,7 +12,7 @@
 
     .INPUTS
     -Users <PathToCSV>
-    -DisableTollFree $true/$false
+    -AllowTollFreeDialIn $true/$false
 
     .EXAMPLE
     .\Teams-AllowTollFreeDialIn.ps1 -Users C:\Temp\Users.csv -AllowTollFreeDialIn $false
